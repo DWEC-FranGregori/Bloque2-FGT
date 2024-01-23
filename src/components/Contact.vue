@@ -7,7 +7,7 @@
     <td>{{ contact.fecha }}</td>
     <td>
         <button>Edit</button>
-        <button @click="$emit('order', contact.id)">X</button>
+        <button @click="$emit('order', contact)">X</button>
     </td>
 </template>
 

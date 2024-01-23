@@ -32,14 +32,14 @@ onMounted(async () => {
     }
 })
 
-const del = async (id) => {
-    console.log(id)
-    if (!confirm('Are you sure you want to delete it?')) return
+const del = async (contact) => {
+    console.log(contact)
+    if (!confirm(`¿Quieres eliminar a ${contact.nombre}?`)) return
 
     const repository = new ContactsRepository()
     try {
-        await repository.removeItem(id)
-        contacts.value = contacts.value.filter(item => item.id != id)
+        await repository.removeItem(contact.id)
+        contacts.value = contacts.value.filter(item => item.id != contact)
     } catch (error) {
         console.error(error)
     }

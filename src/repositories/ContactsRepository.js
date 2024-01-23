@@ -49,6 +49,7 @@ export default class ContactsRepository {
     async getItemsByType(type) {
         try {
             const response = await axios.get(`${SERVER}/${table}?tipo=${type}`)
+            console.log(response.data)
             return response.data
         } catch (error) {
             throw new Error(error)

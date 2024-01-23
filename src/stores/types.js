@@ -10,14 +10,15 @@ export const useTypesStore = defineStore("types", () => {
       const repository = new TypesRepository()
       const data = await repository.getAllItems()
       types.value = data
+      console.log(types.value)
     } catch (error) {
       throw new Error(error)
     }
   }
 
-  function findTypeByCode(code) {
-    return types.value.find((item) => item.code === code)
+  function findTypeByCod(cod) {
+    return types.value.find((item) => item.cod === cod)
   }
 
-  return { types, getTypes, findTypeByCode }
+  return { types, getTypes, findTypeByCod }
 })
