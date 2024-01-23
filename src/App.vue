@@ -1,17 +1,29 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-</script>
-
 <template>
   <header>
     <nav>
       <RouterLink :to="{ name: 'home' }">Home</RouterLink>
+      <RouterLink :to="{ name: 'types' }">Tipos</RouterLink>
+      <RouterLink :to="{ name: 'contacts' }">Contactos</RouterLink>
+      <RouterLink :to="{ name: 'create-contact' }">Crear Contacto</RouterLink>
       <RouterLink :to="{ name: 'about' }">About</RouterLink>
     </nav>
   </header>
 
   <RouterView />
 </template>
+
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
+import { useTypesStore } from './stores/types'
+import { onMounted } from 'vue'
+
+const store = useTypesStore()
+const { getTypes } = store
+
+onMounted(() => {
+  getTypes()
+})
+</script>
 
 <style scoped lang="sass">
 header
