@@ -1,0 +1,114 @@
+{
+  "tipos": [
+    {
+      "cod": "A",
+      "tipo": "Amigo",
+      "icono": "heart"
+    },
+    {
+      "cod": "F",
+      "tipo": "Familia",
+      "icono": "house"
+    },
+    {
+      "cod": "S",
+      "tipo": "Estudios",
+      "icono": "mortarboard"
+    },
+    {
+      "cod": "T",
+      "tipo": "Trabajo",
+      "icono": "pc-display-horizontal"
+    }
+  ],
+  "contactos": [
+    {
+      "id": 1,
+      "nombre": "Marta Pérez",
+      "tel": "676676767",
+      "email": "mp@gmail.com",
+      "tipo": "A",
+      "fecha": "2023-01-31 20:12:34"
+    },
+    {
+      "nombre": "Anna Pla",
+      "tel": "987654321",
+      "email": "ap@gmail.com",
+      "tipo": "T",
+      "fecha": "2023-02-01 11:46:09",
+      "id": 3
+    },
+    {
+      "id": 5,
+      "nombre": "Júlia Montero",
+      "tel": "666555444",
+      "email": "jm@gmail.com",
+      "tipo": "T",
+      "fecha": "2022-11-27 12:12:12"
+    },
+    {
+      "id": 14,
+      "nombre": "Quim Cerdá",
+      "tel": "654321098",
+      "email": "qc@gmail.com",
+      "tipo": "F",
+      "fecha": "2014-12-23 04:45:12"
+    },
+    {
+      "nombre": "Joan Martí",
+      "tel": "654654654",
+      "email": "jm@gmail.com",
+      "tipo": "T",
+      "fecha": "2022-11-24 12:05:46",
+      "id": 22
+    },
+    {
+      "nombre": "Alejandro",
+      "tel": "987654321",
+      "email": "alex@gmail.com",
+      "tipo": "A",
+      "fecha": "2022-11-27 23:41:12",
+      "id": 24
+    },
+    {
+      "nombre": "Patricia",
+      "tel": "678901234",
+      "email": "ap@gmail.com",
+      "tipo": "A",
+      "fecha": "2023-01-31 21:17:32",
+      "id": 25
+    },
+    {
+      "nombre": "Marcial",
+      "tel": "648593104",
+      "email": "ruben@hotmail.com",
+      "tipo": "F",
+      "fecha": "2023-01-31 21:26:50",
+      "id": 26
+    },
+    {
+      "nombre": "Víctor",
+      "tel": "123132132",
+      "email": "asd@asd.es",
+      "tipo": "T",
+      "fecha": "2022-11-27 12:32:36",
+      "id": 29
+    },
+    {
+      "nombre": "Moisés",
+      "tel": "121212121",
+      "email": "ap@gmail.com",
+      "tipo": "S",
+      "fecha": "2023-01-31 21:30:03",
+      "id": 30
+    },
+    {
+      "nombre": "frangt",
+      "tel": "642603912",
+      "email": "frangt@gmail.com",
+      "tipo": "T",
+      "fecha": "2024-01-19 7:17:26",
+      "id": 31
+    }
+  ]
+}

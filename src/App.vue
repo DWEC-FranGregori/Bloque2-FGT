@@ -28,6 +28,7 @@ onMounted(() => {
 <style scoped lang="sass">
 header
   margin-bottom: 10%
+  
 nav
   text-align: center
 
