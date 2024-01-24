@@ -1,4 +1,5 @@
 <template>
+    <h1>Listado de Contactos</h1>
     <ContactsTable></ContactsTable>
     <button type="button" @click="goTo">Añadir contacto</button>
 </template>

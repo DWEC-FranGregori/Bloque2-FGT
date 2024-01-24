@@ -39,7 +39,7 @@ const del = async (contact) => {
     const repository = new ContactsRepository()
     try {
         await repository.removeItem(contact.id)
-        contacts.value = contacts.value.filter(item => item.id != contact)
+        contacts.value = contacts.value.filter(item => item.id !== contact.id)
     } catch (error) {
         console.error(error)
     }
