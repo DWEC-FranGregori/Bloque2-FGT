@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
-import FormView from '@/views/FormView.vue'
+import NewContactView from '@/views/NewContactView.vue'
+import EditContactView from '@/views/EditContactView.vue'
 import TypesView from '@/views/TypesView.vue'
 import ContactsView from '@/views/ContactsView.vue'
 import ContactsTypesView from '@/views/ContactsTypesView.vue'
@@ -17,7 +18,13 @@ const router = createRouter({
     {
       path: '/create-contact',
       name: 'create-contact',
-      component: FormView
+      component: NewContactView
+    },
+    {
+      path: '/edit-contact/:id',
+      name: 'edit-contact',
+      component: EditContactView,
+      props: true
     },
     {
       path: '/types',

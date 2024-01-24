@@ -40,7 +40,7 @@
     },
     {
       "id": 5,
-      "nombre": "Júlia Montero",
+      "nombre": "Alison",
       "tel": "666555444",
       "email": "jm@gmail.com",
       "tipo": "T",
@@ -95,11 +95,11 @@
       "id": 29
     },
     {
-      "nombre": "Moisés",
-      "tel": "121212121",
-      "email": "ap@gmail.com",
-      "tipo": "S",
-      "fecha": "2023-01-31 21:30:03",
+      "nombre": "Fran",
+      "tel": "642603912",
+      "email": "frangregori20@hotmail.es",
+      "tipo": "F",
+      "fecha": "2024-01-24 5:36:16",
       "id": 30
     }
   ]

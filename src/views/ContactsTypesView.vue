@@ -33,7 +33,7 @@ const type = ref({})
 
 const repository = new ContactsRepository()
 const store = useTypesStore()
-const { findTypeByCod } = store
+const { findTypeByCod } = store 
 
 onMounted(async () => {
     type.value = findTypeByCod(cod.value)
