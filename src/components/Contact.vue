@@ -6,9 +6,8 @@
     <td v-html="getIcon(type.icono)"></td>
     <td>{{ showDate(contact.fecha) }}</td>
     <td>
-        <button @click="goToEdit"><i class="bi bi-pencil"></i></button>
-        <button @click="$emit('order', contact)"><i class="bi bi-trash-fill"></i>
-        </button>
+        <button @click="goToEdit" class="edit"><i class="bi bi-pencil-fill"></i></button>
+        <button @click="$emit('order', contact)" class="del"><i class="bi bi-trash-fill"></i></button>
     </td>
 </template>
 
@@ -55,7 +54,22 @@ const showDate = (date) => {
 const getIcon = (icono) => {
     return `<i class='bi bi-${icono}'></i>`
 }
-
 </script>
 
-<style scoped></style>
+<style scoped lang="sass">
+button
+    border: none
+    padding: 10%
+
+.del
+    background-color: lch(48.24% 90.87 39.18)
+    &:hover
+        background-color: lch(35.59% 70.57 39.18)
+
+.edit
+    background-color: lch(60.29% 0 39.18)
+    margin-right: 15%
+    &:hover
+        background-color: lch(44.41% 0 39.18)    
+
+</style>
