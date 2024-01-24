@@ -1,4 +1,5 @@
 <template>
+    <h1>Nuevo Contacto</h1>
     <Form @submit="submit" :validation-schema="schema">
         <label for="name">Nombre</label>
         <Field type="text" name="name" v-model="contact.nombre" />
