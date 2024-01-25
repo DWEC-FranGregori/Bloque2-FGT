@@ -96,4 +96,4 @@ button
     &:hover
         background-color: lch(48.82% 86.03 42.35)
 
-</style>
+</style>@/repositories/EmpresasRepository@/stores/empresas
