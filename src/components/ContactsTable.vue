@@ -17,10 +17,10 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import ContactsRepository from '@/repositories/ContactsRepository'
+import EmpresasRepository from '@/repositories/EmpresasRepository'
 import Contact from './Contact.vue'
 
-const repository = new ContactsRepository()
+const repository = new EmpresasRepository()
 
 const contacts = ref([])
 
@@ -46,4 +46,4 @@ const del = async (contact) => {
 }
 </script>
 
-<style scoped lang="sass"></style>
+<style scoped lang="sass"></style>@/repositories/EmpresasRepository

@@ -14,14 +14,14 @@
 
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import { useTypesStore } from './stores/types'
+import { useEmpresasStore } from './stores/empresas'
 import { onMounted } from 'vue'
 
-const store = useTypesStore()
-const { getTypes } = store
+const store = useEmpresasStore()
+const { getEmpresas } = store
 
 onMounted(() => {
-  getTypes()
+  getEmpresas()
 })
 </script>
 
@@ -46,4 +46,4 @@ a
     transition-duration: 500ms
     background-color: lch(62.65% 73.47 134.47)
 
-</style>
+</style>./stores/empresas

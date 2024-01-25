@@ -37,4 +37,4 @@ const getIcon = (icono) => {
 table
     text-align: center
     border: 1px solid black
-</style>
+</style>@/stores/empresas

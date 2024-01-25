@@ -72,4 +72,4 @@ button
     &:hover
         background-color: lch(44.41% 0 39.18)    
 
-</style>
+</style>@/stores/empresas

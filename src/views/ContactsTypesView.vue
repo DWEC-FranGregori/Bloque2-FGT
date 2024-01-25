@@ -47,4 +47,4 @@ onMounted(async () => {
 })
 </script>
 
-<style scoped lang="sass"></style>
+<style scoped lang="sass"></style>@/repositories/EmpresasRepository@/stores/empresas

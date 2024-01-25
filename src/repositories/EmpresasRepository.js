@@ -1,8 +1,8 @@
 import axios from 'axios'
 const SERVER = import.meta.env.VITE_URL_API
-const table = 'contactos'
+const table = 'empresas'
 
-export default class ContactsRepository {
+export default class EmpresasRepository {
 
     async getAllItems() {
         try {
@@ -46,9 +46,9 @@ export default class ContactsRepository {
         }
     }
 
-    async getItemsByType(type) {
+    async getItemsByLocalidad(localidad) {
         try {
-            const response = await axios.get(`${SERVER}/${table}?tipo=${type}`)
+            const response = await axios.get(`${SERVER}/${table}?localidad=${localidad}`)
             console.log(response.data)
             return response.data
         } catch (error) {
